@@ -1,0 +1,35 @@
+{
+  "gym": {
+    "name": "FitZone Club",
+    "location": "Phnom Penh",
+    "description": "A premium fitness club with modern equipment, expert trainers, and flexible classes."
+  },
+  "members": [
+    { "id": 1, "name": "Sok", "age": 25, "goal": "Muscle Gain", "membership": "Gold" },
+    { "id": 2, "name": "Dara", "age": 28, "goal": "Weight Loss", "membership": "Silver" },
+    { "id": 3, "name": "Lina", "age": 22, "goal": "Fitness & Health", "membership": "Bronze" }
+  ],
+  "trainers": [
+    { "id": 1, "name": "Mr. Vannak", "specialty": "Strength Training", "experience": "5 years" },
+    { "id": 2, "name": "Ms. Sreyneang", "specialty": "Cardio & Flexibility", "experience": "4 years" }
+  ],
+  "classes": [
+    { "id": 1, "name": "Morning Yoga", "trainerId": 2, "time": "06:30 - 07:30", "days": ["Mon", "Wed", "Fri"] },
+    { "id": 2, "name": "HIIT Blast", "trainerId": 1, "time": "08:00 - 09:00", "days": ["Tue", "Thu"] },
+    { "id": 3, "name": "Strength Training", "trainerId": 1, "time": "18:00 - 19:30", "days": ["Mon", "Wed", "Fri"] },
+    { "id": 4, "name": "Zumba Dance", "trainerId": 2, "time": "19:00 - 20:00", "days": ["Tue", "Thu"] }
+  ],
+  "equipment": [
+    "Treadmill",
+    "Dumbbells",
+    "Bench Press",
+    "Rowing Machine",
+    "Elliptical",
+    "Stationary Bike"
+  ],
+  "memberships": [
+    { "type": "Bronze", "price": 25, "duration": "1 month", "access": ["Gym"] },
+    { "type": "Silver", "price": 40, "duration": "1 month", "access": ["Gym", "Group Classes"] },
+    { "type": "Gold", "price": 60, "duration": "1 month", "access": ["Gym", "Group Classes", "Personal Trainer"] }
+  ]
+}
